@@ -1,0 +1,72 @@
+.campo-destaque{
+  height: 450px;
+  width: 100%;
+  background-image: url("./../img/city-3213676_1920.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  text-shadow: 3px;
+  color: black;
+}
+.destaque{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  padding: 10px;
+  border-radius: 5px;
+  border: 3px rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.conteudos{
+  width: 100%;
+  background-color: rgba(168, 241, 245, 0.5);
+  height: 500px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.conteudo-box{
+  border-radius: 24px;
+  border: 1px solid #002633;
+  width: 400px;
+  height: 520px;
+  background-color: rgba(0, 38, 51, 0.2);
+  transition: width 1s;
+  transition: height 0.5s;
+  margin-right: 100px;
+}
+.conteudo-box img{
+  width: 90%;
+  height: 40%;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.conteudo-box hr{
+  margin: 10px;
+  border-color: #002633;
+  background-color: #002633;
+}
+.conteudo-box h1{
+  margin-left: 10px;
+  font-family:  sans-serif;
+  font-size: 25px;
+}
+.conteudo-box p{
+  text-align: justify;
+  margin: 5px;
+  font-family: sans-serif;
+}
+.conteudo-box:hover{
+  width: 450px;
+  height: 550px;
+  cursor: pointer;
+}
